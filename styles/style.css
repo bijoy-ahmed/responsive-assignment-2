@@ -1,0 +1,175 @@
+/* shared styles */
+*{
+    font-family: Mulish;
+}
+
+/* header */
+
+.header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*  nav styles */
+nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .web-name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-icon{
+    width: 48px;
+    height: 56px;
+}
+#check-btn{
+    font-size: 18px;
+    margin-right: 10px;
+    float:left;
+    display:none ;
+}
+#check{
+    display: none;
+}
+.nav-tittle{
+    color: #131318;
+     font-size: 36px;
+     font-weight: 800;
+}
+.tittle-us{
+    color: #FF5400;
+    font-size: 36px;
+     font-weight: 800;
+}
+.home-bar{
+    background:#FF5400;
+}
+.nav-about{
+    display: flex;
+}
+nav  .nav-about  a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+}
+/* end nav */
+/* explore travels styles */
+.explore-container{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+.explore-items{
+    text-align: center;
+    padding: 90px;
+}
+.explore-items .explore-tittle{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.expolore-description{
+    color: #FFF;
+    font-size: 16px; 
+    font-weight: 400;
+}
+.explore-input-items{
+    width: 760px;
+    height: 50px;
+    display: inline-flex;
+    gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 16px;
+}
+.input{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+}
+.button{
+    width: 175px;
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 16px;
+font-weight: 700;
+}
+/* our popular tour  */
+.our-popular{
+   
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 116px;
+    gap: 40px;
+}
+.popular-contain-tittle{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 32px; 
+ 
+}
+.popular-img{
+    border-radius: 16px;
+background: url('../Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+width: 600px;
+height: 550px;
+
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+.nav-about{
+    display: none;
+}
+#check-btn{
+    display: block;
+}
+   .explore-container{
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+   }
+   .explore-items{
+    padding-top: 25px;
+   }
+   .expolore-description{
+    font-size: 14px;
+    line-height: 20px;
+   }
+   .nav-tittle{
+    font-size: 20px;
+   }
+   
+   
+   .explore-input-items{
+    display: flex;
+   width: 287px;
+   flex-direction: column;
+   gap: 16px; 
+   
+   }
+}
