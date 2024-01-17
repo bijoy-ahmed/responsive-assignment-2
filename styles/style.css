@@ -363,7 +363,7 @@ footer{
 /* responsive area */
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
 .nav-about{
     display: none;
 }
